@@ -16,9 +16,11 @@ This will listen on the specified endpoint for a POST request and then perform s
 #### Request from Pedit to Ark
 ```json
 {
-	"id": 1, // thermostat raw id
-	"current_temperature": 10.2 // raw float value
+	"id": 1,
+	"current_temperature": 10.2,
+	"set_temperature": 12.3
 }
+```
 ## Resources
 Below is a list of resources mainly PDFs that have helped me.
 - [T75 User Guide](https://issuu.com/ashford/docs/t75_user_guide)
